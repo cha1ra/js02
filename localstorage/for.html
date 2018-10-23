@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <title>For文の練習ダオ</title>
+</head>
+<body>
+    <div id="view"></div>
+    <script>
+        let str = "";
+        for(let i=0; i<10; i++){
+            //str += "ループ：" + i + "回目<br>";
+            //str += `${i}回目<br>`;
+        }
+        
+
+        for(let i=0; i<10; i++){
+            str += `${i}回目<br>`;
+        }
+        $('#view').html(str);
+    </script>
+</body>
+</html>
